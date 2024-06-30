@@ -1,0 +1,6 @@
+sonar-scanner \
+  -Dsonar.projectKey=nestjs-testing \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.token=token\
+  -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
